@@ -1,3 +1,8 @@
+# About this fork
+
+The original code has not been updated for a while. This fork contains the minimal changes needed to make the library run. 
+
+
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Spotify_meaningful_logo.svg" alt="Logo" title="Spotify" height="300" width="300"/>
   <p align="center">
