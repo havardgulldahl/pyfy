@@ -128,7 +128,7 @@ class Spotify(_BaseClient):
             total=max_retries,
             backoff_factor=backoff_factor,
             status_forcelist=[429],
-            method_whitelist=["GET", "UPDATE", "DELETE"],
+            allowed_methods=["GET", "UPDATE", "DELETE"],
         )
         retries_adapter = HTTPAdapter(max_retries=retries)
         if cache:
